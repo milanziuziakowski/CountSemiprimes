@@ -31,13 +31,19 @@ Caveats and pointers
 
 AI/ML in pure mathematics (2020–2026)
 
-- Trend: Machine learning and AI increasingly aid conjecture generation, pattern discovery, and algorithm search in pure mathematics. Notable application areas include symbolic conjecturing, guiding human research, and discovering improved algorithms (e.g., for matrix multiplication).
+- Trend: Machine learning and AI increasingly aid conjecture generation, pattern discovery, and algorithm search in pure mathematics. Applications include symbolic conjecturing, guiding human research, and discovering improved algorithms (e.g., for matrix multiplication and tensor decomposition).
 
-- Evidence: The automated theorem proving literature and recent arXiv work show a growing body of research combining ML with formal methods and conjecture discovery. See the Automated Theorem Proving overview (Wikipedia) and recent arXiv search results for "machine learning mathematics" and AlphaTensor-related work:
-  - https://en.wikipedia.org/wiki/Automated_theorem_proving
-  - https://arxiv.org/search/?query=machine+learning+mathematics&searchtype=all
-  - DeepMind AlphaTensor (example of AI-driven algorithm discovery): https://deepmind.google/blog/article/alphatensor/
+- Key exemplar: AlphaTensor (DeepMind). AlphaTensor used reinforcement learning to search for low-rank tensor decompositions that correspond to fast matrix‑multiplication algorithms. Published in Nature (2022) with DOI 10.1038/s41586-022-05172-4:
+  - Fawzi, A., Balog, M., Huang, A., Hubert, T., Romera‑Paredes, B., Barekatain, M., Novikov, A., Ruiz, F. J. R., Schrittwieser, J., Świrszcz, G., Silver, D., Hassabis, D., Kohli, P., "Discovering faster matrix multiplication algorithms with reinforcement learning," Nature 610, 47–53 (2022). DOI: https://doi.org/10.1038/s41586-022-05172-4
+  - DeepMind blog: https://deepmind.google/blog/article/alphatensor/ (accessible summary and links to code/data)
 
-- Practical impact: These tools are not (yet) replacements for rigorous proofs but have provided useful conjectures, computational evidence, and in some cases human-guided discoveries that were previously hard to find. Integration with proof assistants and formal libraries (e.g., Lean/mathlib) is accelerating the pipeline from conjecture to machine-checkable result.
+- Reproducibility and follow-ups: OpenTensor (Sun & Li, arXiv:2405.20748, 2024) reproduces and clarifies AlphaTensor's pipeline and reports successful reproduction of discovered algorithms:
+  - Sun, Y., Li, W., "OpenTensor: Reproducing Faster Matrix Multiplication Discovering Algorithms," arXiv:2405.20748 (2024). PDF: https://arxiv.org/pdf/2405.20748v1.pdf
 
-- Suggested reading (starting points): the Automated Theorem Proving article above and recent arXiv surveys/search results on ML+mathematics (link above)."}{
+- Evidence & literature: arXiv search results and surveys show a rapidly growing set of papers on ML-assisted mathematical discovery and ML+ATP (automated theorem proving). Good starting points:
+  - Automated theorem proving (overview): https://en.wikipedia.org/wiki/Automated_theorem_proving
+  - arXiv search: https://arxiv.org/search/?query=machine+learning+mathematics&searchtype=all
+
+- Practical impact and caution: These methods provide strong computational evidence, generate useful conjectures, and sometimes find novel human‑relevant constructions. However, machine‑found results still require human verification, formal checking, or reproducible code to be trusted in the mathematical literature.
+
+- Suggested next actions (for inclusion in a repository appendix): add DOIs and arXiv IDs inline, link to DeepMind's code/sample data, and optionally include brief summaries or quotes from the papers above with page references."}{
