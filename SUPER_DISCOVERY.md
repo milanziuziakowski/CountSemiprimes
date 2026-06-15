@@ -46,4 +46,16 @@ AI/ML in pure mathematics (2020–2026)
 
 - Practical impact and caution: These methods provide strong computational evidence, generate useful conjectures, and sometimes find novel human‑relevant constructions. However, machine‑found results still require human verification, formal checking, or reproducible code to be trusted in the mathematical literature.
 
-- Suggested next actions (for inclusion in a repository appendix): add DOIs and arXiv IDs inline, link to DeepMind's code/sample data, and optionally include brief summaries or quotes from the papers above with page references."}{
+- Suggested next actions (for inclusion in a repository appendix): add DOIs and arXiv IDs inline, link to DeepMind's code/sample data, and optionally include brief summaries or quotes from the papers above with page references.
+
+Repository resources and curated links
+
+- Local copy (arXiv) included: OpenTensor (Sun & Li, arXiv:2405.20748) saved under resources/OpenTensor-2405.20748v1.pdf — check license before wide redistribution; arXiv versions are generally author preprints.
+
+- Curated external links to expand this section further:
+  - AlphaTensor (DeepMind) — Nature paper (2022), DOI: https://doi.org/10.1038/s41586-022-05172-4
+    - DeepMind blog: https://deepmind.google/blog/article/alphatensor/
+  - OpenTensor (reproduction) — arXiv: https://arxiv.org/abs/2405.20748
+  - Quanta Magazine (accessible feature): "AI Is Helping Mathematicians Find New Patterns" — https://www.quantamagazine.org/ai-is-helping-mathematicians-find-new-patterns-20210921/
+
+- Note: If a publisher's page disallows redistribution (paywall), prefer linking to arXiv preprints, project code repositories, or author-posted manuscripts instead of including publisher PDFs."}{
