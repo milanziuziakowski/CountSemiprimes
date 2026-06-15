@@ -29,4 +29,15 @@ Caveats and pointers
 - This summary intentionally stays high-level; any claim about a "recent major proof" (solution to a famous open problem) must be cross-checked with primary literature and community consensus.
 - For a living list of up-to-date breakthroughs, consult arXiv, Notices of the AMS, Quanta Magazine, and major journals.
 
-If desired, this file can be expanded with timestamped, sourced entries describing 2020–2026 discoveries with citations and links (requires web sourcing and verification).
+AI/ML in pure mathematics (2020–2026)
+
+- Trend: Machine learning and AI increasingly aid conjecture generation, pattern discovery, and algorithm search in pure mathematics. Notable application areas include symbolic conjecturing, guiding human research, and discovering improved algorithms (e.g., for matrix multiplication).
+
+- Evidence: The automated theorem proving literature and recent arXiv work show a growing body of research combining ML with formal methods and conjecture discovery. See the Automated Theorem Proving overview (Wikipedia) and recent arXiv search results for "machine learning mathematics" and AlphaTensor-related work:
+  - https://en.wikipedia.org/wiki/Automated_theorem_proving
+  - https://arxiv.org/search/?query=machine+learning+mathematics&searchtype=all
+  - DeepMind AlphaTensor (example of AI-driven algorithm discovery): https://deepmind.google/blog/article/alphatensor/
+
+- Practical impact: These tools are not (yet) replacements for rigorous proofs but have provided useful conjectures, computational evidence, and in some cases human-guided discoveries that were previously hard to find. Integration with proof assistants and formal libraries (e.g., Lean/mathlib) is accelerating the pipeline from conjecture to machine-checkable result.
+
+- Suggested reading (starting points): the Automated Theorem Proving article above and recent arXiv surveys/search results on ML+mathematics (link above)."}{
