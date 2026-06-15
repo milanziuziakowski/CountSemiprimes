@@ -1,3 +1,14 @@
+"""CountSemi.py
+
+Module-level notes: This script contains a simple example for generating and counting semiprimes.
+See math/CountSemi.md for detailed mathematical background, asymptotics and algorithms.
+
+Usage:
+    python CountSemi.py
+
+This file was augmented to include documentation and a pointer to the math notes.
+"""
+
 def CountSemiprimes():
     P=[1,4,16]
     Q=[26,10,20]

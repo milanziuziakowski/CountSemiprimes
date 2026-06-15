@@ -1,3 +1,13 @@
+"""ChocolatesByNumbers.py
+
+Module-level notes: Classic problem — number of chocolates eaten equals N / gcd(N, M).
+See math/ChocolatesByNumbers.md for the formal proof and explanation.
+
+Usage:
+    from ChocolatesByNumbers import solution
+    print(solution(10, 4))  # example
+"""
+
 def solution(N, M):
     List_of_N=[]
     if N>0:
