@@ -52,10 +52,19 @@ Repository resources and curated links
 
 - Local copy (arXiv) included: OpenTensor (Sun & Li, arXiv:2405.20748) saved under resources/OpenTensor-2405.20748v1.pdf — check license before wide redistribution; arXiv versions are generally author preprints.
 
-- Curated external links to expand this section further:
-  - AlphaTensor (DeepMind) — Nature paper (2022), DOI: https://doi.org/10.1038/s41586-022-05172-4
-    - DeepMind blog: https://deepmind.google/blog/article/alphatensor/
-  - OpenTensor (reproduction) — arXiv: https://arxiv.org/abs/2405.20748
-  - Quanta Magazine (accessible feature): "AI Is Helping Mathematicians Find New Patterns" — https://www.quantamagazine.org/ai-is-helping-mathematicians-find-new-patterns-20210921/
+- AlphaTensor (Nature) — concise summary
+  - AlphaTensor (Fawzi et al., Nature 2022, DOI: 10.1038/s41586-022-05172-4) applies a DeepMind AlphaZero-style reinforcement-learning agent to a single-player game (TensorGame) whose moves build low-rank tensor decompositions. The agent discovered many algorithms that match or improve the best-known multiplication schemes for specific small matrix shapes, including improvements for 4×4 multiplication over finite fields and hardware-optimized algorithms. The paper emphasizes algorithm-discovery as an optimization problem where reward design, search architecture, and verification are essential. (See DOI and DeepMind blog for an accessible walkthrough.)
 
-- Note: If a publisher's page disallows redistribution (paywall), prefer linking to arXiv preprints, project code repositories, or author-posted manuscripts instead of including publisher PDFs."}{
+- Quanta Magazine — feature summary
+  - Quanta's feature "AI Is Helping Mathematicians Find New Patterns" (Sept 2021) surveys how ML assists in pattern discovery and conjecture formation across domains. It highlights collaborations between ML researchers and mathematicians, examples of computer‑discovered patterns that led to human‑guided proofs or new directions, and the caveats about interpretability and mathematical value. Use Quanta for accessible narrative context when presenting technical papers to a general audience.
+
+- OpenTensor (reproducibility)
+  - OpenTensor (Sun & Li, arXiv:2405.20748, 2024) reproduces and clarifies AlphaTensor's pipeline, provides implementation details, and reports experiments showing the approach finds efficient multiplication schemes. A copy of the arXiv PDF is stored in resources/ (OpenTensor-2405.20748v1.pdf) for convenience.
+
+- Direct links & suggested citations
+  - AlphaTensor (Nature): https://doi.org/10.1038/s41586-022-05172-4
+  - DeepMind blog: https://deepmind.google/blog/article/alphatensor/
+  - OpenTensor (arXiv): https://arxiv.org/abs/2405.20748  (local PDF: resources/OpenTensor-2405.20748v1.pdf)
+  - Quanta Magazine: https://www.quantamagazine.org/ai-is-helping-mathematicians-find-new-patterns-20210921/
+
+- Usage note: When quoting or redistributing publisher PDFs, respect copyright and link to arXiv preprints or author-posted versions where possible. For repository appendices, include short summaries and canonical citations rather than full publisher PDFs unless licensing allows."}{
